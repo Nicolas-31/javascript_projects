@@ -1,4 +1,3 @@
-
 // variable - Most Basic Building Block
 // variables - Store, Access, Modify === Value
 // Declare, Assignment Operator, Assign Value
@@ -17,6 +16,34 @@
 // no keyword
 // cannot start with number
 
-// case sensitive - fullname vs fullname 
+// case sensitive - fullname vs fullname
 // let random123_$ = 'random';
 // console.log(random123_$);
+
+// const mention = 'John\'s courses are the best';
+// console.log(mention);
+
+// numbers
+// loosely Typed = don't declare type
+
+// const number = 34;
+// let pants = 2.466;
+// pants = 'are great';
+// console.log(number);
+// console.log(pants);
+// const number2 = 2.456;
+// console.log(number2);
+
+// Modulus (%) operator returns the remainder after integer division
+// let number = 40;
+// number += 5;
+// console.log(number);
+// number -= 5;
+// console.log(number);
+// number *= 5;
+// console.log(number);
+// number /= 5;
+// console.log(number);
+
+// const number2 = 10 % 3;
+// console.log(number2);
