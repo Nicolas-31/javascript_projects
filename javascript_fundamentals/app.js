@@ -129,11 +129,79 @@
 
 // return fuction
 
-function calculate(value){
-    return `The value in cm is ${value * 2}`;
-}
+// function calculate(value){
+//     return  value * 2;
+// }
 
-const width = calculate(10);
-const height = calculate(20);
-const dimensions = [width, height];
-console.log(dimensions);
+// const width = calculate(10);
+// const height = calculate(20);
+// const dimensions = [width, height];
+// console.log(dimensions);
+
+
+// function expression
+// const add = function (a, b) {
+//     return a + b;
+// }
+// const result = add(10, 20);
+// console.log(result);
+
+// object
+// const person = {
+//     name: 'John',
+//     lastName: 'Jordan',
+//     age: 25,
+//     education: false,
+//     married: true,
+//     siblings: ['Anna', 'Susan', 'George'],
+//     greeting: function (){
+//         console.log('hello my name is john')
+//     }
+// }
+
+// const age = person.age;
+// console.log(age);
+// console.log(person.name);
+// console.log(person.siblings[2]);
+// person.greeting();
+
+// switch
+// dice values: 1 - 6
+
+// const dice  = 1;
+// switch(dice){
+//     case 1:
+//         console.log('one');
+//         break;
+//     case 2:
+//         console.log('two');
+//         break;
+//     case 3:
+//         console.log('three');
+//         break;      
+//     default: 
+//         console.log('you did not roll the dice');
+// }
+
+// const amount = 10;
+// while (amount > 0) {
+//     console.log('I have' + amount + "dollars and I\'m going to the movies");
+//     amount--;
+// }
+
+// let money  = 0;
+// do{
+//     console.log('you have ' + money + ' dollars');
+//     money++;
+// }while(money < 10);
+
+// for loop
+
+// let i;
+// for (i = 0; i < 10; i++) {
+//     console.log('and the number is: ' + i);
+// }
+
+for(let number=11; number>0; number--){
+    console.log('countdown: ' + number);
+}
